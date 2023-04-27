@@ -14,13 +14,14 @@ Tech Stack
 
 An application which will store contact information about the people which we use it in a mobile phone. This application have the features of the mobile app such as Create, Edit, Delete, Copy , Search ,Move , Move All , Copy All and Delete All functions.
 
+
 Memory
 
-•	SIM
+•	Create Contact
 
-•	Phone
+•	Edit Contact
 
-•	Mail
+•	Delete Contact
 
 
 
