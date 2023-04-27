@@ -17,11 +17,11 @@ An application which will store contact information about the people which we us
 
 Memory
 
-•	Create Contact
+•	SIM
 
-•	Edit Contact
+•	PHONE
 
-•	Delete Contact
+•	CLOUD
 
 
 
