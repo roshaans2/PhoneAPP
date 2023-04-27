@@ -1,6 +1,28 @@
 # PhoneAPP
 
-An application which will store contact information about the people which we use it in a mobile phone. This application have the features of the mobile app such as Create, Edit, Delete, Copy , Search ,Move , Move All , Copy All and Delete All functions , Also use different memory like SIM, Phone and Cloud
+
+Tech Stack
+
+->JSP
+
+->JAVA
+
+->MySQL
+
+->JDBC
+
+
+An application which will store contact information about the people which we use it in a mobile phone. This application have the features of the mobile app such as Create, Edit, Delete, Copy , Search ,Move , Move All , Copy All and Delete All functions.
+
+Memory
+
+•	SIM
+
+•	Phone
+
+•	Mail
+
+
 
 Functions
 
@@ -26,13 +48,4 @@ Functions
 
 
 
-Tech Stack\n
-
-->JSP
-
-->JAVA
-
-->MySQL
-
-->JDBC
 
