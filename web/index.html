@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>PhoneBook App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="icon" type="image/x-icon" href="icon.png">
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family:'Poppins', sans-serif;
+            }
+
+            .container{
+                margin: 2rem auto;
+                width: 80%;
+
+            }
+
+            .container h1{
+                text-align: center;
+                color:blueviolet;
+            }
+
+            .we_offer{
+                display: flex;
+                flex-wrap: wrap; /* responsive */
+                gap: 0.5rem;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .we_offer .card{
+                border-radius: 10px;
+                overflow: hidden;
+                border: 1px solid #e0e0e0;
+                transition: all 0.3s ease-in-out ;
+                margin: 12px;
+                cursor: pointer;
+            } 
+
+            .we_offer .card img{
+                width: 250px;
+                height: 180px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .we_offer .card h2{
+                padding: 10px;
+                font-size: 15px;
+                text-align: center;
+                font-weight: 400;
+            }
+
+            .we_offer .card:hover{
+                transform: scale(1.05);
+
+            }
+            .footer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 75px;
+                width: 100%;
+                background-color: blueviolet;
+                color: white;    
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+     
+        <h1 style="text-align:center;font-size:36px;color:blueviolet;margin-top:2%;">Phone Book App</h1>
+        
+        <section class="container we_offer">
+           <div class="card">
+              <a href="getContact.html"><img src="1.png" alt=""></a>
+              <h2>Get Contact details</h2>
+           </div>
+           <div class="card">
+                <a href="NewContact.html"><img src="2.webp" alt=""></a>
+                <h2>Add New Contact</h2>
+           </div>
+        
+          
+           <div class="card">
+              <a href="Search.html"><img src="3.png" alt=""></a>
+              <h2>Search Contact</h2>
+           </div>
+           <div class="card">
+                <a href="Update.html"><img src="4.png" alt=""></a>
+                <h2>Update Contact</h2>
+            </div>
+            <div class="card">
+                <a href="Delete.html"><img src="5.png" alt=""></a>
+                <h2>Delete Contact</h2>
+            </div>
+            <div class="card">
+                <a href="deleteAll.html"><img src="6.jpg" alt=""></a>
+                <h2>Delete All Contacts</h2>
+            </div>
+            <div class="card">
+                <a href="copyAll.html"><img src="7.jpg" alt=""></a>
+                <h2>Copy all Contacts</h2>
+            </div>
+            <div class="card">
+                <a href="copyContact.html"><img src="10.png" alt=""></a>
+                <h2>Copy Contact</h2>
+            </div>
+            <div class="card">
+                <a href="moveAll.html"><img src="8.jpg" alt=""></a>
+                <h2>Move all Contacts</h2>
+            </div>
+            <div class="card">
+                <a href="moveContact.html"><img src="11.png" alt=""></a>
+                <h2>Move Contact</h2>
+            </div>
+            <div class="card">
+                <a href="getAll.jsp"><img src="9.jpg" alt=""></a>
+                <h2>Get Contacts from All Memory</h2>
+            </div>
+         </section>
+        <br>
+        <br>
+        <section class="footer">
+            <div class="footer">
+                <span>
+                    Team - Sri Venkateswara College of Engineering (SVCE)
+                </span>
+            </div>
+        </section>
+
+    </body>
+</html>
