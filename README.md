@@ -3,9 +3,11 @@
 
 Tech Stack
 
+->JAVA
+
 ->JSP
 
-->JAVA
+->HTML
 
 ->MySQL
 
